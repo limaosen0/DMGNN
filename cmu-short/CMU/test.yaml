@@ -6,7 +6,7 @@ test_dir: '../data/cmu/test'
 actions: 'all'
 batch_size: 32
 source_seq_len: 50
-target_seq_len: 25
+target_seq_len: 10
 
 model: net.model.Model
 model_args:
