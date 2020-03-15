@@ -5,7 +5,7 @@ work_dir: './work_dir/prediction'
 actions: 'all'
 batch_size: 32
 source_seq_len: 50
-target_seq_len: 25
+target_seq_len: 10
         
 
 model: net.model.Model
@@ -28,7 +28,7 @@ model_args:
 edge_weighting: True
 
 
-iter_num: 400
+iter_num: 40000
 weight_decay: 0.0001
 optimizer: 'Adam'
 step: [1000,  2000,  3000,  4000,  5000,  6000,  7000,  8000,  9000,  10000,
@@ -44,6 +44,6 @@ fusion_layer_dir: fusion_2
 learning_rate_dir: adam_1e-4
 lamda_dir: lamda_06
 crossw_dir: cross_03
-note: mask2
+note: run1
 
 debug: False
