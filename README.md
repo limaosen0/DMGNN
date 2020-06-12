@@ -19,6 +19,8 @@ Abstract: We propose novel dynamic multiscale graph neural networks (DMGNN) to p
 # Acknowledgement
 Thanks for the framework provided by 'yysijie/st-gcn', which is source code of the published work [ST-GCN](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17135) in AAAI-2018. The github repo is [ST-GCN code](https://github.com/yysijie/st-gcn). We borrow the framework and interface from the code.
 
+We also thank for the pre-processed data provided by the works of Res-sup. ([paper],[code](https://github.com/una-dinosauria/human-motion-prediction)) and Convolutional Seq2seq model ([paper],[code](https://github.com/chaneyddtt/Convolutional-Sequence-to-Sequence-Model-for-Human-Dynamics)).
+
 # Citation
 If you use this code, please cite our paper:
 ```
