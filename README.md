@@ -17,6 +17,7 @@ Abstract: We propose novel dynamic multiscale graph neural networks (DMGNN) to p
 # Training and Testing
 
 # Acknowledgement
+Thanks for the framework provided by 'yysijie/st-gcn', which is source code of the published work [ST-GCN](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17135) in AAAI-2018. The github repo is [ST-GCN code](https://github.com/yysijie/st-gcn). We borrow the framework and interface from the code.
 
 # Citation
 If you use this code, please cite our paper:
