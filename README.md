@@ -13,6 +13,12 @@ Abstract: We propose novel dynamic multiscale graph neural networks (DMGNN) to p
 * numpy
 
 # Environments
+After downloading the codes of DMGNN, please run the following commands for the environment preparation.
+
+Run
+```
+cd torchlight, python setup.py install, cd ..
+```
 
 # Training and Testing
 
