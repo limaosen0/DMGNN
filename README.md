@@ -11,6 +11,7 @@ Abstract: We propose novel dynamic multiscale graph neural networks (DMGNN) to p
 * pyyaml
 * argparse
 * numpy
+* h5py
 
 # Environments
 After downloading the codes of DMGNN, please run the following commands for the environment preparation.
