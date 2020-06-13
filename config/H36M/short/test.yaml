@@ -1,5 +1,5 @@
 work_dir: './work_dir/prediction'
-weights: ./work_dir/prediction/fusion_2/adam_1e-4/lamda_06/cross_03/try6/iter33000_model.pt
+weights: ./work_dir/prediction/h36m_short_model.pt
 data_dir: '../data/h3.6m/dataset'
 
 actions: 'all'
@@ -29,7 +29,7 @@ model_args:
 edge_weighting: True
  
 phase: test
-device: [1]
+device: [0]
 use_gpu: True
 
 lamda: 0.6
