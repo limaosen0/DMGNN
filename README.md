@@ -23,7 +23,22 @@ cd torchlight, python setup.py install, cd ..
 
 # Training and Testing
 
-You can download the saved model for short-term prediction on Human3.6M: [Model Link](https://pan.baidu.com/s/1ybEjEqlu9yTG6g-qsroB4g) (Baidu Cloud). And the keyword is: knht. Then, put the whole folder in './h36m-short'. Just run
+To train a model for a specific task, e.g. short-term prediction on CMU Mocap, first
+```
+cd cmu-short
+```
+and then, just run
+```
+python main.py prediction -c ../config/CMU/short/train.yaml
+```
+Some model hyper-parameters or training configurations could be change in the file of '../config/CMU/short/train.yaml'. During training, the model shows the validation results and finally outputs the lowest prediction error.
+
+And, we can also test the model given the saved model file. First, we need to change the Line-2 in '../config/CMU/short/train.yaml' as the path of saved model. Then, run
+```
+python main.py prediction -c ../config/CMU/short/test.yaml
+```
+
+You can download the saved model for short-term prediction on Human3.6M (as an example): [Model Link](https://pan.baidu.com/s/1ybEjEqlu9yTG6g-qsroB4g) (Baidu Cloud). And the keyword is: knht. Then, put the whole folder in './h36m-short'. Just run
 ```
 python main.py prediction -c ../config/H36M/short/test.yaml
 ```
