@@ -1,5 +1,5 @@
 work_dir: './work_dir/prediction/input_pva'
-weights: ./work_dir/prediction/input_pva/fusion_1/adam_1e-4/noseperate/iter22500_model.pt
+weights: <The path of the saved model.>
 data_dir: './data/h3.6m/dataset'
 
 actions: 'all'
