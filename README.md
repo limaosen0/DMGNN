@@ -23,6 +23,8 @@ cd torchlight, python setup.py install, cd ..
 
 # Training and Testing
 
+You can download the saved model for short-term prediction on Human3.6M: [Model Link](https://pan.baidu.com/s/1ybEjEqlu9yTG6g-qsroB4g) And the keyword is: knht.
+
 # Acknowledgement
 Thanks for the framework provided by 'yysijie/st-gcn', which is source code of the published work [ST-GCN](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17135) in AAAI-2018. The github repo is [ST-GCN code](https://github.com/yysijie/st-gcn). We borrow the framework and interface from the code.
 
