@@ -1,0 +1,40 @@
+work_dir: './work_dir/prediction'
+weights: ./work_dir/prediction/fusion_2/adam_1e-4/lamda_06/cross_03/try6/iter33000_model.pt
+data_dir: '../data/h3.6m/dataset'
+
+actions: 'all'
+subtrain: [1,6,7,8,9,11]
+subtest: [5]
+batch_size: 64
+source_seq_len: 50
+target_seq_len: 10
+
+model: net.model.Model
+model_args:
+  n_in_enc: 3
+  n_hid_enc: 256
+  n_in_dec: 9
+  n_hid_dec: 256
+  fusion_layer: 2
+  cross_w: 0.3
+  graph_args_j:
+    layout: 'h36m'
+    strategy: 'distance'
+  graph_args_p:
+    layout: 'h36m'
+    strategy: 'distance'
+  graph_args_b:
+    layout: 'h36m'
+    strategy: 'distance'
+edge_weighting: True
+ 
+phase: test
+device: [1]
+use_gpu: True
+
+lamda: 0.6
+fusion_layer_dir: fusion_2
+learning_rate_dir: adam_1e-4
+lamda_dir: lamda_06
+crossw_dir: cross_03
+note: test
