@@ -38,7 +38,7 @@ And, we can also test the model given the saved model file. First, we need to ch
 python main.py prediction -c ../config/CMU/short/test.yaml
 ```
 
-Additionally, you can also download the saved model for short-term prediction on Human3.6M (as an example): [Model Link](https://pan.baidu.com/s/1ybEjEqlu9yTG6g-qsroB4g) (Baidu Cloud). And the keyword is: knht. Then, put the whole folder in './h36m-short'. Just run
+Additionally, you can also download the saved model for short-term prediction on Human3.6M (as an example): [Model Link](https://pan.baidu.com/s/1ybEjEqlu9yTG6g-qsroB4g) (Baidu Cloud). And the password is: knht. Then, put the whole folder in './h36m-short'. Just run
 ```
 python main.py prediction -c ../config/H36M/short/test.yaml
 ```
